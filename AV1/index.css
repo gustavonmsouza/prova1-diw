@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    background-color: aliceblue;
+    padding: 40px;
+}
+table{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    border-collapse: separate;
+    padding: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    border: solid black 1px;
+    padding: 30px;
+}
+.cabecalho{
+    background-color: rgb(36, 38, 82);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+h1{
+    font-size: 40px;
+}
+.meio{
+    vertical-align: top;
+    padding: 40px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px rgb(36, 38, 82);
+}
+h2{
+    color: rgb(36, 38, 82);
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 17px;
+}
+a{
+    color: rgb(200, 59, 3);
+}
+a:hover{
+    color: blue;
+}
+.rodape{
+    background-color: rgb(174, 172, 172);
+    text-align: center;
+    padding: 30px;
+}
